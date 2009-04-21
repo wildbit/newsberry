@@ -16,7 +16,7 @@ module Newsberry
 
       req = Net::HTTP::Post.new('/api/subscriber.asmx/SynchronizeSubscribers')
 
-      req.basic_auth Newsberry.auth[:username], Newsberry.auth[:password]
+      req.basic_auth Newsberry.auth[:username], Newsberry.auth[:password] if Newsberry.auth
 
       form_data = { 
         'licenseKey'  => Newsberry.api_key,
