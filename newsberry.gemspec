@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.description = %q{Simple package that allows you to manage your newsberry contacts.}
   s.email = %q{petyo@wildbit.com}
   s.extra_rdoc_files = ["History.txt", "README.txt"]
-  s.files = [".gitignore", "History.txt", "README.txt", "Rakefile", "lib/newsberry.rb", "lib/newsberry/list.rb", "test/credentials.yml", "test/credentials.yml.sample", "test/newsberry_test.rb", "test/test_helper.rb"]
+  s.files = [".gitignore", "History.txt", "README.txt", "Rakefile", "lib/newsberry.rb", "lib/newsberry/list.rb", "test/credentials.yml.sample", "test/newsberry_test.rb", "test/test_helper.rb"]
   s.has_rdoc = true
   s.homepage = %q{http://newsberry.com}
   s.rdoc_options = ["--main", "README.txt"]
