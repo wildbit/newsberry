@@ -14,6 +14,10 @@ Simple package that allows you to manage your newsberry contacts.
 
 sudo gem install wildbit_newsberry
 
+== HOWTO: 
+
+Check test/newsberry_test.rb for sample usage. It is very basic, and  currently SynchronizeSubscribers is implemented only. 
+
 == LICENSE:
 
 (The MIT License)
