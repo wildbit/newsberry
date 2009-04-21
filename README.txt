@@ -12,7 +12,7 @@ Simple package that allows you to manage your newsberry contacts.
 
 == INSTALL:
 
-sudo gem install wildbit_newsberry
+sudo gem install wildbit-newsberry
 
 == HOWTO: 
 
